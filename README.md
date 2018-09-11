@@ -57,7 +57,9 @@ the maximal index for each dimension, and dimnames is an optional list of dimens
   ```ruby
   mydata <- data.frame(col1, col2, col3,...)
   ```
-  
+    a)
+   an alternative for data frame: [tibble](http://blog.fens.me/r-tibble/) for tidyverse especially
+   
   >lists: an ordered collection of objects (components). A list allows you to gather a variety of (possibly unrelated) objects under one name. 
   
  - the data types or modes in R:
