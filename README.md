@@ -86,4 +86,16 @@ handle it)**.
     status <- factor(status, order=TRUE, levels=c("Poor", "Improved", "Excellent"))
 ```
     
+## dplyr
+- mutate()
+  > mutate(data, new_column = func(old column))
+- filter()
+  > for rows
+- group_by()
+- summarize()
+- select()
+  > for columns
+- left_join()
+- gather/spread()
+
 
