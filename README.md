@@ -85,7 +85,9 @@ handle it)**.
     status <- c("Poor", "Improved", "Excellent", "Poor")
     status <- factor(status, order=TRUE, levels=c("Poor", "Improved", "Excellent"))
 ```
-    
+
+[an interesting document](https://cran.r-project.org/doc/contrib/Liu-FAQ.pdf)
+
 ## dplyr
 - mutate()
   > mutate(data, new_column = func(old column))
